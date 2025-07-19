@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="card">
+        <h1>🌸 H A P P Y &nbsp; B I R T H D A Y 🌸</h1>
+
+        <div class="animated-heart">♡</div>
+
+        <p class="message">
+            Wishing you a day filled with joy, laughter, and everything you wished for.
+        </p>
+
+        <button id="reveal-btn">🎁 Click for a surprise!</button>
+    </div>
+
+    <p class="footer">Made with 💖 by Debojit</p>
+
+    <div id="photo-modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-image" src="assets/surprise-photo.jpg">
+    </div>
+
+    <audio id="bg-music" src="assets/bg-music.mp3" loop></audio>
+
+    <div id="start-overlay">
+        <div class="start-text">Click to open your gift</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
